@@ -1,0 +1,6 @@
+SELECT ept.*,mlt.*,mlp.*
+FROM main_employeeleavetypes ept
+left Join main_leave_policy mlp ON ept.id= mlp.leave_type
+left Join main_leave_transaction mlt ON mlp.leave_type = mlt.leave_type
+GROUP BY mlp.leave_type
+ORDER BY ept.id

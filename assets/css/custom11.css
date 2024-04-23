@@ -1,0 +1,115 @@
+/* Add here all your css styles (customizations) */
+.container {
+    padding: 0 20px;
+    width: 100%;
+}
+.banner_search_ttl{
+    color: #00ff33;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.dt_pick{
+    border-radius: 5px !important;
+}
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.coach_tp{
+    padding-left: 15px;
+}
+.find_mar{
+    margin: 0px 0px 15px 0px !important;
+}
+.benefit_list{
+    padding-top: 8px !important;
+}
+/*helpline*/
+.helpline {
+    padding-bottom: 10px;
+}
+.helpline, .helpline > small {
+    font-size: 14px;
+    margin-left: 50px;
+}
+.helpline > small {
+    background: #09a543;
+    font-size: 16px;
+    padding: 15px 10px 10px;
+    border-radius: 0 0px 0px 10px;
+}
+.helpline, .helpline > small {
+    font-size: 14px;
+    margin-left: 50px;
+}
+.helpline img {
+    margin-left: 5px;
+    margin-top: -8px;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+.helpline strong {
+    background: #8EBB95 none repeat scroll 0 0 !important;
+    color: #FFF;
+    font-size: 16px;
+    padding: 15px 10px 10px;
+    border-radius: 0 0px 10px 0px;
+    letter-spacing: 1px;
+    margin-left: -4px;
+}
+strong {
+    font-weight: 700;
+}
+#modify_div{
+    display: none;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.fdetails tr td{
+    padding:4px !important;
+}
+.text_color_1{
+    color:#09A543;
+}
+.process_info{
+    font-size: 12px;
+    color:#09A543;
+}
+.details_h{
+    height:250px;
+}
+
+.go_right{
+    text-align: right;
+    
+}
+.top-bar{
+	background:#999;
+	clear:both;
+	overflow:hidden;}
+	body{ padding-bottom:0px;
+	padding-top:0px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2023-08-31 21:56:47 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 21:56:50 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 21:56:51 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 21:56:51 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 21:57:07 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 21:57:08 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 22:02:48 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 22:02:48 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 22:02:49 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 22:02:52 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 22:02:59 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 22:03:08 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 22:03:11 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 22:03:16 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 22:03:43 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 22:03:56 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 22:09:07 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 22:19:54 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 22:19:58 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 22:20:48 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 22:21:09 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 22:21:27 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 22:21:48 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 22:26:35 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 22:28:08 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 22:35:44 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 22:36:01 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 23:01:48 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 23:02:05 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 23:03:07 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 23:03:59 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 23:05:08 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 23:06:43 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php
+ERROR - 2023-08-31 23:06:48 --> Could not find the specified $config['composer_autoload'] path: D:\project\htdocs\HR\vendor/autoload.php

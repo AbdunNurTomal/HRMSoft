@@ -1,0 +1,119 @@
+/*seat_cart*/
+.seat_cart{
+    float:right;
+    background: #F9F9F9;
+    border: 1px solid #B4DDB4;
+    height:auto;
+}
+.seat_symbol{
+    float:right;
+    width:165px;
+}
+.seat_body{
+    float:left;
+    /*width:160px;140*/
+}
+.driver_row{
+    float:left;
+    width:100%;
+    height:30px;
+    background:url("seat_cart/driver-seat.png") no-repeat right;
+    background-position: right 15px bottom 10px;
+/*    background-image: url('seat_cart/driver-seat.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50px 100px; */
+}
+.seat_row{
+    float:left;
+    width:100%;
+}
+/*.s_col{
+    float:left;
+    width:32px;
+    margin:0px 0px 0px 0px;
+}*/
+.s_corridor{
+    float:left; width:32px; height:1px;
+}
+/*.l_row{
+    float:left;
+}*/
+.seat{
+    float:left;
+    background: #fff;
+    color:#949494;
+    font-weight:bold;
+    border: 1px solid #B4DDB4;
+    border-radius: 5px;
+    width:28px;
+    height:28px;
+    margin:2px 2px 5px 2px;
+    padding-top:3px;
+    padding-left:5px;
+    cursor: pointer;
+}
+
+
+
+/* cart table */
+
+@media only screen and (max-width: 800px) {
+    .seat_cart{
+        float:left;
+        margin-left:-110px;
+    }
+    
+    .price_tab{
+        width:180px;
+        margin-left:-110px;
+    }
+    .c_tab_th{
+        margin-top:5px !important;
+    }
+    
+    
+}
+.price_tab{
+        width:180px;
+}
+
+.c_tab_th{
+    float:left;
+    width:90px;
+    background: #F9F9F9;
+    margin:0px 0px 5px 0px;
+    padding: 5px 0px 5px 0px;
+    color:#099008;
+    font-weight:bold;
+    border-top: 1px solid #949494;
+    border-bottom: 1px solid #949494;
+}
+.c_tab_td{
+    float:left;
+    width:90px;
+    border-bottom: 1px solid #DDD;
+}
+.c_tab_tf{
+    float:left;
+    width:90px;
+    color:#099008;
+    background: #F9F9F9;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+}
+.myselect2{
+    margin-bottom:10px;
+}
+.seat_hkali_ny{
+    background: #ffdbd7;
+    cursor:all-scroll !important;
+}
+.seat_borrado{
+    background: #fbf5b2;
+    cursor:all-scroll !important;
+}
+.seat_select{
+    background: #E1FDDC;
+    cursor:all-scroll !important;
+}

@@ -1,0 +1,435 @@
+/* 
+Project Name : Erp solution login Page
+Author       : Euro Bangla It
+Date         : 3/5/2016
+Developed By : Mohammd Abdus Salam
+ */
+
+
+
+/* =============================================
+				==default style==
+============================================= */
+body{
+	position: relative;
+	height: 100%;
+}
+
+ /* ==========================================
+ 		==Typography==
+ ========================================== */
+ h2{
+ 	font-family: 'Lato',sans-serif;
+ 	font-weight: 700;
+ 	font-size: 42px;
+ }
+ h1,h2,h3,h4,h5,h6,p{
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+
+ /* ===========================================
+ 			==All transiton ==
+ =========================================== */
+.erp-btn:before,.erp-form,.single-group:hover label i,.sign-up .erp-btn.erp-btn1{
+	-webkit-transition: all .30s linear;
+	-moz-transition: all .30s linear;
+	transition: all .30s linear;
+}
+ /* ====================================
+ 		==main site==
+ ==================================== */
+ .site-content{
+ 	background: rgba(33,150,243,.7);
+
+ }
+ .main-site{
+ 	display: table;
+ 	height: 100vh;
+ 	width: 100%;
+ }
+ .login-form-area{
+ 	display: table-cell;
+ 	vertical-align: middle;
+
+ }
+
+.main-form{
+ 	background: #fff;
+	 /* box-shadow: 3px 0px 8px rgba(0,0,0,.30); */
+	 -webkit-box-shadow: -10px 2px 28px 2px rgba(198,194,255,1);
+-moz-box-shadow: -10px 2px 28px 2px rgba(198,194,255,1);
+box-shadow: -10px 2px 28px 2px rgba(198,194,255,1);
+	border-radius: 2px;
+	height: 100%;
+}
+
+ .form-title{
+	padding-top: 20px;
+}
+.main_logo{
+	padding-top: 20px;
+}
+.form-title h6{
+	color: #360909;
+	font-family: 'Lato',sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	text-align: center;
+}
+.form-middle-content{
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 35px;
+}
+.erp-form{
+	border: 1px solid #999;
+	border-radius: 2px;
+	height: 35px;
+	position: relative;
+	width: 100%;
+}
+.form-middle-content .form-group {
+  margin-bottom: 14px;
+}
+.single-group{
+	position: relative;
+}
+.single-group label {
+	border-right: 1px solid #999;
+	height: 34px;
+	left: 1px;
+	position: absolute;
+	top: 1px;
+	text-align: center;
+	width: 35px;
+	z-index: 99;
+}
+.single-group input {
+	background: #f9f9f9;
+	color: #222222;
+	padding-left: 43px;
+	font-family: "Lato",sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+}
+.single-group:hover label,.single-group:hover .erp-form{
+	border-color: #2196f3;
+}
+.single-group input:hover label{
+	border-right: 1px solid #2196f3;
+}
+.single-group:hover label i{
+	color: #2196f3;
+}
+.single-group label i{
+	color: #8b8b8b;
+	line-height: 34px;
+}
+.erp-btn {
+	background: #2196f3 none repeat scroll 0 0;
+	border-radius: 2px;
+	color: #fff;
+	display: block;
+	float: right;
+	font-family: "Lato",sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: 35px;
+	overflow: hidden;
+	padding-left: 33px;
+	padding-right: 33px;
+	position: relative;
+	z-index: 111;
+}
+
+.erp-close-btn {
+	background: #c9302c none repeat scroll 0 0;
+	border-radius: 2px;
+	color: #fff !important; 
+	display: block;
+	float: right;
+	font-family: "Lato",sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: 35px;
+	overflow: hidden;
+	padding-left: 33px;
+	padding-right: 33px;
+	position: relative;
+	z-index: 111;
+	
+}
+
+.erp-btn:before{
+	background: #0b84e4;
+	content: "";
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 0px;
+	z-index: -1;
+}
+.erp-btn:hover:before{
+	width: 100%;
+}
+.erp-btn:hover{
+	color: #fff;
+}
+.form-middle-content a {
+	color: #222222;
+	font-family: "Lato",sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 35px;
+}
+.form-middle-content a:hover{
+	text-decoration: none;
+}
+.form-footer{
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 74px;
+}
+.form-footer p{
+	color: #222;
+	font-family: "Lato",sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+}
+.form-footer p span a{
+	color: #2196f3;
+	font-family: "Lato",sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: .5px;
+	transition: all .30s linear;
+}
+.form-footer p span a:hover{
+	letter-spacing: .9px;
+	text-decoration: none;
+}
+
+/* ================================
+		==sign Up page
+================================ */
+.sign-up .main-form{
+	background: transparent;
+	box-shadow: none;
+}
+.sign-up .form-content{
+	border-radius: 2px;
+	background: #fff;
+	box-shadow: 3px 0px 8px rgba(0,0,0,.30);
+}
+.sign-up .form-middle-content{
+	padding-bottom: 79px;
+}
+.sign-up .trail-period{
+	text-align: center;
+}
+.sign-up .trail-period h4{
+	color: #fff;
+	font-family: "Lato",sans-serif;
+	font-weight: 600;
+	font-size: 28px;
+}
+.sign-up .trail-period p{
+	color: #fff;
+	font-family: "Lato",sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	padding-top: 8px;
+	padding-bottom: 35px;
+}
+.sign-up .form-control{
+	box-shadow: none;
+	border: 1px solid #999;
+	border-radius: 2px;
+	height: 35px;
+	position: relative;
+	width: 100%;
+	background: #f9f9f9;
+	color: #999;
+	padding-left: 43px;
+	font-family: "Lato",sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+}
+.sign-up .form-control:hover,.sign-up .form-control:focus{
+	color: #222;
+}
+.sign-up .erp-btn {
+	border-radius: 2px;
+	color: #fff;
+	display: block;
+	float: right;
+	height: 35px;
+	overflow: hidden;
+	padding-left: 13px;
+	padding-right: 13px;
+	position: relative;
+	z-index: 111;
+}
+.sign-up .erp-btn.erp-btn1 {
+	background: #fff none repeat scroll 0 0;
+	border: 1px solid #2196f3;
+	color: #2196f3;
+	float: left;
+	line-height: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	position: relative;
+	text-align: center;
+	z-index: 111;
+}
+
+/* select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+} */
+.sign-up .erp-btn.erp-btn1:hover{
+	color: #fff;
+}
+
+/* *********************************************************
+			==All respo
+********************************************************* */
+@media(min-width:480px)and (max-width:767px){
+	.container{
+		width: 450px;
+	}
+	.erp-btn{
+		float: left;
+		margin-right: 15px;
+	}
+	.login-position {
+		position: fixed !important;
+	}
+}
+
+@media(min-width:300px)and (max-width:479px){
+	.container{
+		width: 300px;
+	}
+	.erp-btn{
+		float: left;
+		margin-right: 15px;
+	}
+	.sign-up .form-control{
+		padding-left: 15px;
+	}
+	.login-position {
+		position: fixed !important;
+	} 
+}
+@media(min-width: 768px)and (max-width:1024px) {
+   .col-sm-9 {
+        width:65%;
+	}
+	.col-sm-3 {
+		width:35%;
+	}
+}
+
+.txt-login-username {
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(184, 187, 192);
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255);
+	width: 350px;
+	height: 54px;
+}
+
+.login-application-title {
+	font-size: 18px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: rgb(20, 20, 20);
+	line-height: 1.389;
+	text-align: center;
+}
+
+.login-login-text {
+	font-size: 16px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: rgb(20, 20, 20);
+	text-align: center;
+}
+
+.btn-login-submit {
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(184, 187, 192);
+	border-radius: 5px;
+	/* background-color: rgb(255, 255, 255); */
+	background-color: #292452;
+	width: 350px;
+	height: 54px;
+	font-size: 15px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: rgb(255, 255, 255);
+	text-align: center;
+}
+
+.btn-login-submit:hover {
+	color: rgb(184, 187, 192);
+}
+
+.login-forget-password {
+	font-size: 14px !important;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+	color: rgb(20, 20, 20) !important;
+	text-align: left !important;
+}
+
+.login-dont-have-a-login {
+	font-size: 13px !important;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+	color: rgb(109, 109, 109) !important;
+}
+
+.login-try-it-for-free {
+	font-size: 13px !important;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+	color: rgb(40, 37, 180) !important;
+	text-decoration: underline !important;
+}
+
+.login-background-image {
+	background-image: url("../img/HR-Login-Bg-Image.png");
+	background-repeat: no-repeat;
+	height: 100%;
+	background-size: cover;
+}
+
+.login-form-row {
+	height: 100vh;
+}
+
+.login-copyright {
+	font-size: 12px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: rgba(20, 20, 20, 0.6);
+	text-align: center !important;
+	position: absolute;
+	bottom: 20px;
+	left: 40%;
+	transform: translate(-40%, 0);
+}
+
+.login-password-label {
+	margin-top: 20px;
+}
+
+.login-img{
+	height: 100vh;
+	width: 100%;
+}
+
+#login-form .error p {
+	color: #a94442;
+}

@@ -1,0 +1,21 @@
+http://192.168.1.108:750/sentrifugo/index.php/
+
+mhjny67@gmail.com
+admin123
+
+Url: https://www.alphahrm.com/login.a5w
+
+Username:reza.khan
+Password: 7277
+
+
+http://192.168.1.108:750/hrm/
+
+info@hrcservice.com
+123456
+
+
+<label class="col-sm-2 control-label">Description </label>
+                                <div class="col-sm-4">                               
+                                    <textarea class="form-control" rows="1" id="org_description"  name="org_description"><?php echo $row->org_description; ?></textarea> 
+                                </div> 

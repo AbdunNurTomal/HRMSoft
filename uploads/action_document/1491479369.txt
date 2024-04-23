@@ -1,0 +1,7 @@
+https://github.com/Awesomez/PHP-to-OrgChart
+
+http://www.jqueryscript.net/chart-graph/Fully-Customizable-Organisational-Chart-Plugin-With-jQuery-OrgChart.html
+
+http://www.jqueryscript.net/demo/Create-An-Editable-Organization-Chart-with-jQuery-orgChart-Plugin/
+
+http://www.jqueryscript.net/chart-graph/Create-An-Editable-Organization-Chart-with-jQuery-orgChart-Plugin.html

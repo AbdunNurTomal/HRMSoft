@@ -1,0 +1,1 @@
+<?php "This is printed from test.php"; ?>

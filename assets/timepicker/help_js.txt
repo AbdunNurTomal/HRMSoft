@@ -1,0 +1,50 @@
+
+            $('#timepicker1').timepicker();
+
+            $('#timepicker2').timepicker({
+                minuteStep: 1,
+                template: 'modal',
+                appendWidgetTo: 'body',
+                showSeconds: true,
+                showMeridian: false,
+                defaultTime: false
+            });
+
+            $('#timepicker3').timepicker({
+                minuteStep: 5,
+                showInputs: false,
+                disableFocus: true
+            });
+            
+
+            $('#timepicker4').timepicker({
+                minuteStep: 1,
+                secondStep: 5,
+                showInputs: false,
+                modalBackdrop: true,
+                showSeconds: true,
+                showMeridian: false
+            });
+
+            $('#timepicker5').timepicker({
+                template: false,
+                showInputs: false,
+                minuteStep: 5
+            });
+            $('#timepicker6').timepicker({
+                minuteStep: 1,
+                secondStep: 5,
+                showInputs: false,
+                template: 'modal',
+                modalBackdrop: true,
+                showSeconds: true,
+                showMeridian: false
+            });
+
+            setTimeout(function() {
+                $('#timeDisplay').text($('#timepicker1').val());
+            }, 100);
+
+            $('#timepicker1').on('changeTime.timepicker', function(e) {
+                $('#timeDisplay').text(e.time.value);
+            });
